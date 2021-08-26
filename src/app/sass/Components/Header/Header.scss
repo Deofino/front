@@ -2,9 +2,9 @@ body {
     padding-top: rem(70);
 }
 .l-headerMain {
-    background-color: darken(desaturate(darken($primary, 10%), 35%), 20%);
+    background-color: $primary;
     @include darkMode {
-        background-color: darken(desaturate(darken($primary, 14%), 50%), 20%);
+        background-color: $primary;
         // background-color: #6d88ce;
     }
     padding: $global-padding;
@@ -15,69 +15,4 @@ body {
     left: 0;
     box-shadow: 0 rem(2) rem(8) var(--color-shadow);
     width: 100%;
-}
-
-.c-waves {
-    position: relative;
-    width: 120%;
-    height: rem(230);
-    &__wave {
-        position: absolute;
-        top: -10%;
-        left: -10%;
-        width: 120%;
-        height: rem(200);
-        background-image: url(./wave.png);
-        background-size: 55% rem(200);
-        filter: saturate(140%);
-        animation: animate 10s ease-in-out infinite;
-        animation-delay: calc(var(--i) * 0.25s);
-        @include breakpoint(medium) {
-            background-size: 70% rem(200);
-            top: -20%;
-        }
-    }
-
-    &__wave#wave1 {
-        --i: 1;
-        z-index: 210;
-        opacity: 1;
-        background-position-x: 400px;
-    }
-
-    &__wave#wave2 {
-        --i: 2;
-        z-index: 209;
-        opacity: 0.4;
-        background-position-x: 300px;
-    }
-
-    &__wave#wave3 {
-        z-index: 208;
-        --i: 3;
-        opacity: 0.2;
-        background-position-x: 200px;
-    }
-
-    &__wave#wave4 {
-        --i: 4;
-        z-index: 207;
-        opacity: 0.6;
-        background-position-x: 100px;
-    }
-
-    @keyframes animate {
-        25% {
-            transform: translate(10px, 10px);
-        }
-        50% {
-            transform: translate(-5px, 20px);
-        }
-        75% {
-            transform: translate(5px, -5px);
-        }
-        100% {
-            transform: translate(0px, 0px);
-        }
-    }
 }

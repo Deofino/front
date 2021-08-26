@@ -1,20 +1,14 @@
-![Aura](./src/img/project/logo192.png)
-# Aura | Atraia-se para o futuro
+![NOMEPROJETO](./src/img/project/logo192.png)
+# NOMEPROJETO | SLOGAN
 <!-- #### Aprenda dinamicamente e acompanhe seus avanços numa plataforma de simulados moderna e intuitiva -->
+<!-- 
 
-
-A corporação Aura atua no ramo da tecnologia especificada e profissionalizada na criação de softwares para empresas de pequeno e médio porte, que surgiu por intermédio de pretensões em comum, sobre realizar projetos que cooperem com as necessidades da sociedade e que possam ser supridas com base na tecnologia. Temos o intuito de proporcionar para os nossos clientes um futuro promissor através de sistemas que supram sua total expectativa, fazendo com que, a busca da evolução e se manter à frente do mercado tecnológico sejam sempre constantes.
-
+A corporação Aura atua no ramo da tecnologia especificada e profissionalizada na criação de softwares para empresas de pequeno e médio porte, que surgiu por intermédio de pretensões em comum, sobre realizar projetos que cooperem com as necessidades da sociedade e que possam ser supridas com base na tecnologia. Temos o intuito de proporcionar para os nossos clientes um futuro promissor através de sistemas que supram sua total expectativa, fazendo com que, a busca da evolução e se manter à frente do mercado tecnológico sejam sempre constantes. -->
+Descricao
 
 ## Autores
 
-- [@Camylly Lima](https://github.com/CamyLima09)
-- [@Gabrielly Brito](https://github.com/Gabriely-BMO)
-- [@Guilherme Delfino](https://www.github.com/Deofino)
-- [@Kauê Loviz](https://github.com/kauezin007)
-- [@Paulo Moreira](https://github.com/PauloWarren)
-- [@Ruy Barbosa](https://github.com/RuyMene)
-- [@Vitoria Golçalves](https://github.com/vitoriaGoncalves08)
+- [@...](https://github.com/...)
 
 
 
@@ -23,6 +17,7 @@ A corporação Aura atua no ramo da tecnologia especificada e profissionalizada 
 **Front-end:** ReactJS, Sass.
 
 ## Novidades
+<!-- Features -->
 
 - Site Responsivo
 - Modo claro e escuro
